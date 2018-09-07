@@ -12,8 +12,8 @@ print(calculated)
 ### 3. Plot histogram, boxplot, and qqplot
 ```{r}
 par(mfrow = c(2,2))
-hist(data)
-boxplot(data)
-qqnorm(data)
+hist(data, col = "Blue")
+boxplot(data, main = "Boxplot of Data", xlab = "data", ylab = "Frequency", col = "purple")
+qqnorm(data, pch = 5, col = "red")
 ```
 ![rplot](https://user-images.githubusercontent.com/8938974/45245697-740e4e80-b2cb-11e8-8f20-68d353cd8710.png)
