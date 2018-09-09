@@ -62,6 +62,12 @@ These are the results from calling the function results with the parameter colon
 It seems as if this data is not normally distributed and that it is scewed negatively/to the left. 
 
 ### 4. Random sample of n=60 from a N(3, 4^2) distribution.
+#### for the rest of the questions, replace the first line of the function with this: 
+```{r}
+data <- dataset
+```
+This is because we are using a sample of n observations instead of an nxm dataset
+Now you can run the function normally as so and get results. 
 ```{r}
 Q4<-rnorm(60,3,4)
 results(Q4)
