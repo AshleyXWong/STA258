@@ -62,7 +62,7 @@ These are the results from calling the function results with the parameter colon
 It seems as if this data is not normally distributed and that it is scewed negatively/to the left. 
 
 ### 4. Random sample of n=60 from a N(3, 4^2) distribution.
-#### for the rest of the questions, replace the first line of the function with this: 
+#### For the rest of the questions, replace the first line of the function with this: 
 ```{r}
 data <- dataset
 ```
