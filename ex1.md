@@ -60,3 +60,34 @@ These are the results from calling the function results with the parameter colon
 ![rplot03](https://user-images.githubusercontent.com/8938974/45267271-71c90300-b437-11e8-91da-31e3c3a838f0.png)
 
 It seems as if this data is not normally distributed and that it is scewed negatively/to the left. 
+
+### 4. Random sample of n=60 from a N(3, 4^2) distribution.
+```{r}
+Q4<-rnorm(60,3,4)
+results(Q4)
+```
+These are the results from calling the function results with the parameter Q4: 
+```{r}
+[1] 2.858603 2.844613 3.908117 3.908117
+```
+![rplot04](https://user-images.githubusercontent.com/8938974/45267464-cb7efc80-b43a-11e8-8d70-c49a27eb5b57.png)
+
+It seems as if there is no evidence that this data is not normally distributed. (That's because we used the normal function to create a normally distributed sample of 60 observations!)
+
+### 5. 
+These are the results from calling the function results with the parameter Q5 <- rgamma(40,3,4):
+```{r}
+[1] 0.8076429 0.7768698 0.4617444 0.4617444
+```
+![rplot05](https://user-images.githubusercontent.com/8938974/45267479-30d2ed80-b43b-11e8-8c15-29f35b7eb855.png)
+
+There is evidence that this random sample of 40 observations that uses a gamma distribution is not normally distributed and that it is scewed negatively/to the left. 
+
+### 6. 
+These are the results from calling the function results with the parameter Q6 <- runif(80,-3,4):
+```{r}
+[1]  0.22401354 -0.08199657  2.12967878  2.12967878
+```
+![rplot06](https://user-images.githubusercontent.com/8938974/45267494-74c5f280-b43b-11e8-9a0d-78bb2c28c602.png)
+
+There is evidence that this random sample of 80 observations is not normally distributed.
