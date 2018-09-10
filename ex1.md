@@ -97,3 +97,14 @@ These are the results from calling the function results with the parameter Q6 <-
 ![rplot06](https://user-images.githubusercontent.com/8938974/45267494-74c5f280-b43b-11e8-9a0d-78bb2c28c602.png)
 
 There is evidence that this random sample of 80 observations is not normally distributed.
+
+### 7. Extra
+The histograms look more like their distributions when there are more observations. 
+#### Gamma
+![randomgammavalues](https://user-images.githubusercontent.com/8938974/45329291-acad6280-b52d-11e8-938c-babb8a1bb3e1.png)
+
+#### Normal
+![randomnormvalues](https://user-images.githubusercontent.com/8938974/45329292-acad6280-b52d-11e8-96cd-44de47c8e0bb.png)
+
+#### Uniform
+![randomunifvalues](https://user-images.githubusercontent.com/8938974/45329293-acad6280-b52d-11e8-9f59-7ca3eae2e922.png)
