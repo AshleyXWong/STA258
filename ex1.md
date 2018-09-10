@@ -100,11 +100,31 @@ There is evidence that this random sample of 80 observations is not normally dis
 
 ### 7. Extra
 The histograms look more like their distributions when there are more observations. 
-#### Gamma
+#### Gamma Histograms
 ![randomgammavalues](https://user-images.githubusercontent.com/8938974/45329291-acad6280-b52d-11e8-938c-babb8a1bb3e1.png)
 
-#### Normal
+#### Normal Histograms
 ![randomnormvalues](https://user-images.githubusercontent.com/8938974/45329292-acad6280-b52d-11e8-96cd-44de47c8e0bb.png)
 
-#### Uniform
+#### Uniform Histograms
 ![randomunifvalues](https://user-images.githubusercontent.com/8938974/45329293-acad6280-b52d-11e8-9f59-7ca3eae2e922.png)
+
+The same behaviour applies to boxplots and qqplots.
+
+#### Gamma Boxplots
+![boxesgammavalues](https://user-images.githubusercontent.com/8938974/45329701-b33cd980-b52f-11e8-9e1f-085184d565fd.png)
+
+#### Normal Boxplots
+![boxesnormvalues](https://user-images.githubusercontent.com/8938974/45329702-b33cd980-b52f-11e8-9e73-d48b83b6c96d.png)
+
+#### Uniform Boxplots
+![boxesunifvalues](https://user-images.githubusercontent.com/8938974/45329703-b33cd980-b52f-11e8-82db-2592e13e50ba.png)
+
+#### Gamma QQPlots
+![qqgammavalues](https://user-images.githubusercontent.com/8938974/45329698-af10bc00-b52f-11e8-8fa7-545181008883.png)
+
+#### Normal QQPlots
+![qqnormvalues](https://user-images.githubusercontent.com/8938974/45329699-afa95280-b52f-11e8-87e0-c7f4b45ced31.png)
+
+#### Uniform QQPlots
+![qqunifvalues](https://user-images.githubusercontent.com/8938974/45329700-afa95280-b52f-11e8-8794-efabf97f603b.png)
