@@ -4,9 +4,21 @@
 ```{r}
 results <- function(operation, sample_num, observ_num, first, second) {
   weir1<-c(1:sample_num)
-  if (operation == "unif") {for (i in 1:sample_num) {weir1[i]<-mean(runif(observ_num,as.integer(first),as.integer(second)))}}
-  else if (operation == "gamma") {for (i in 1:sample_num) {weir1[i]<-mean(rgamma(observ_num,as.integer(first),as.integer(second)))}}
-  else if (operation == "norm") {for (i in 1:sample_num) {weir1[i]<-mean(rnorm(observ_num,as.integer(first),as.integer(second)))}}
+  if (operation == "unif") {
+    for (i in 1:sample_num) {
+      weir1[i]<-mean(runif(observ_num,as.integer(first),as.integer(second)))
+    }
+  }
+  else if (operation == "gamma") {
+    for (i in 1:sample_num) {
+      weir1[i]<-mean(rgamma(observ_num,as.integer(first),as.integer(second)))
+    }
+  }
+  else if (operation == "norm") {
+    for (i in 1:sample_num) {
+      weir1[i]<-mean(rnorm(observ_num,as.integer(first),as.integer(second)))
+    }
+  }
   else {print(operation)}
 
   substr(operation, 1, 1) <- toupper(substr(operation, 1, 1))
